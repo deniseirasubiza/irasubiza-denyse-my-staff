@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>object in js</title>
+	<script type="text/javascript">
+		var student= new Object();
+		student.fname="lydie";
+		student.lname="niyoni";
+		student.id=5;
+		student.marksE=67;
+		student.marksSE=78;
+		student.marksBE=80;
+		student.marksSF=79;
+		student.calculateAveragemarks=function(){
+			return(student.marksSF+student.marksBE+student.marksSE+student.marksE)/4;
+		};
+		student.displayDetails=function(){
+			document.write("student id:"+student.id+"student first name:"+student.fname+"student last name"+student.lname+"</br");
+			var avg=student.calculateAveragemarks();
+			document.write("average Marks:"+avg);
+
+		};
+		student.displayDetails();
+	</script>
+</head>
+<body>
+
+</body>
+</html>
