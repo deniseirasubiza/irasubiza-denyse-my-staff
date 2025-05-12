@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> DOM by id</title>
+	<script type="text/javascript">
+		//var name=document.getElementById("id");//
+		function changeText(){
+			var span =document.getElementById("output");
+			var textBox = getElementById("textbox");
+			textBox.style.color="red";
+			output.style.color="green";
+			output.style.fontSize="50pt";
+			output.style.fontFamily="comic Sans MS";
+		}
+	</script>
+</head>
+<body>
+	<center>
+		<button onclick="changetext();">click me!</button>
+<span id="output">Replace me </span>
+<input type="text" name="any" id ="textbox" />
+	</center>
+
+</body>
+</html>
