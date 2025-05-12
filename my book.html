@@ -1,0 +1,220 @@
+<html>
+<head>
+	<title>My Book</title>
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<body bgcolor="pink">
+	<a href="./home.html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">HOME</a>
+<a href="./about .html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">ABOUT </a>
+<a href="./contact.html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">CONTACT</a>
+<a href="./TABLE.html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">TABLE</a>
+<a href="./service.html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">SERVICE</a>
+<a href="./form.html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">FORM</a>
+<a href="./my book.html" style="padding: 10px;color: blue;background-color: bluesky;text-decoration: none;margin-right: 15px;">MY BOOK</a></li><br><br><br><br>
+	<h1>DATABASE AND JAVA  BOOKING TICKET MANAGEMENT SYSTEM</h1>
+	<ol><h2><u><li>DATABASE</li></u></h2>
+		<p>Database name used: <b>bookingticket_management_system.</b></p>
+		<ul type="square"><h3><u><i><li>Tables</li></i></u></h3>
+
+			<ol><li><b>Admin Table</b></li>
+
+			<p>Admin table database structure This is table is table that will be only created by admin and will hold other system users apart from admin  will give them email and password that they will use to login and access the project or system, and also t used to register if she/he’s don’t have an account so once you must to create account in order to login and access or use the system.
+            Note: the created Admin will not have same ability and right in the system.</p></br>
+
+			<li><b>LOGIN Table</b></li>
+
+			<p>
+This the first page of the system where system will choose destination depending on the function he/she possess in the system.
+</p> </br>
+
+
+			<li><b>REGISTRATION Table</b></li>
+
+			<p>As when adimn and user not have account are first to create an account in the registration form.
+			include id,name ,address,etc</p></br>
+
+			<li><b>userTable</b></li>
+
+			
+<p>As when user are come to accessing our system are go to access this user form.
+This the page on which new created user will use given username and password that are recorded in database called in table called users to login so that he/she can access the system features he/she is allowed to.
+ 
+</p></br>
+
+            <li><b> BOOKING Table</b></li>
+
+			<p>It is forms are helps user to get information about how to  booking like  booking id, userid,eventid,totalprice.</p></br>
+
+			<li><b>EVENT Table</b></li>
+
+			<p>It is helps user  to choose event  he/she need to  booking.
+			include eventid,eventname,eventdate,eventdate,eventlocation,eventdesciption,totalprice. </p></br>
+
+<li><b>Payment Table</b></li>
+
+			<p>it help user to pay include .    
+ </p></br>
+
+<li><b>report Table</b></li>
+
+			<p> admin after verify user payment have to report to user that their payment are proved  to be sure that they are done with bookings
+
+</p></br>
+			   
+<li><b> notification Table</b></li>
+
+<p>admin get notification that user they are paid .
+kind of event pay ,time and date ,price,how many ticket pay
+ admin send report to user that.after that user get notification that are successfull paid ,or pending or cancel 
+
+
+</p></br>
+
+			              <h3><u><i><li>Attributes</li></i></u></h3>
+			       <b>Attributes of Admin Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in Admin table:</br>
+
+    
+    <p><b><i>username:</i></b> The column which are represents username of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p>
+
+<b>Attributes of login Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in login table:</br>
+
+    
+    <p><b><i>username:</i></b> The column which are represents username of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p>
+<b>Attributes of registration Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in registration  table:</br>
+
+ <p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br></p> 
+
+    <p><b><i>phone:</i></b> The column which are represents telephone number of user.</br></p>
+
+    <p><b><i>gender:</i></b> The column which are represents or store gender of user like female and male.</br></p> 
+
+    <p><b><i>address</i></b> The column which are represents address of user </br></p>  
+
+    <p><b><i>DoB:</i></b> The column which are represents Date of Birth of user.</br></p>
+
+    <p><b><i>username</i></b> The column which are represents Email of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p>
+
+
+   <b>Attributes of user Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in user  table:</br>
+
+ <p><b><i>fname, lname:</i></b> The columns which are represents first name and last name of user.</br></p> 
+
+    <p><b><i>phonenumber</i></b> The column which are represents telephone number of user.</br></p>
+
+   <p><b><i>address</i></b> The column which are represents address of user </br></p>  
+
+    <p><b><i>email:</i></b> The column which are represents email of  user.</br></p>
+
+    <p><b><i>username</i></b> The column which are represents Email of given user.</br></p>
+
+    <p><b><i>Password:</i></b> The column which are represents  password of the user.</br></p>
+
+ <b>Attributes of booking  Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in booking  table:</br>
+
+ <p><b><i>booking id</i></b> The columns which are represents booingid of user.</br></p> 
+
+    <p><b><i>eventid</i></b> The column which are represents eventid of user.</br></p>
+
+   <p><b><i>userid</i></b> The column which are represents userid of user </br></p>  
+
+   <b>Attributes of event Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in event table:</br>
+
+ <p><b><i>id</i></b> The columns which are represents id of event.</br></p> 
+
+    <p><b><i>eventlocation</i></b> The column which are represents eventlocation.</br></p>
+
+   <p><b><i>eventdate</i></b> The column which are represents eventdate </br></p>  
+    <p><b><i>total price</i></b> The column which are represents totalprice</br></p> 
+   
+   
+ <b>Attributes of  payment Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in payment  table:</br>
+
+ <p><b><i>paymentamount</i></b> The columns which are represents paymentamount</br></p> 
+
+    <p><b><i>paymentmethod</i></b> The column which are represents paymentmethod .</br></p>
+
+
+    <b>Attributes of report Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in report table:</br>
+
+ <p><b><i> reportid</i></b> The columns which are represents reportid.</br></p> 
+
+    <p><b><i>reporttype</i></b> The column which are represents reporttype.</br></p>
+    
+
+     <b>Attributes of notification Table</b></br>
+    Here are the descriptions or purposes of the attributes/columns used in  notification table:</br>
+
+ <p><b><i>notificationmessage</i></b> The columns which are represents notificationmessage.</br></p> 
+
+    <p><b><i>notificationdateandtime</i></b> The column which are represents notificationdateandtime.</br></p>
+
+   <p><b><i>notificationstatus</i></b> The column which are represents notificationstatus.</br></p>  
+
+   <h2><u><li>JAVA</li></u></h2>
+		
+		<ul type="square"><h3><u><i><li>Description</li></i></u></h3>
+
+			  <b>Introduction</b><br>
+ <p>In this chapter I will be describing how powerful generalpurpose programming language was used to create the analyzed system. Under this chapter I will undergo full detail of how everything will function together with database that have been describe above and how it copy with full analyzed system.
+</p><br>
+ 
+	<b>Tools used to develop this system in java programming</b><br>
+
+<p><b>Eclipse IDE: an integrated development environment used in computer programming. It contains a base workspace and an extensible plug-in system for customizing the environment. It is the second-most-popular IDE for Java development, and, until 2016, was the most popular.  </p><br>
+
+<p><b>JAR stands for Java Archive. It's a file format based on the popular ZIP file format and is used for aggregating many files into one. Although JAR can be used as a general archiving tool, the primary motivation for its development was so that Java applets and their requisite components. </p><br>
+
+			              <h3><u><i><li>Forms and Images</li></i></u></h3>
+
+<b>LOGIN Form</b></br>
+<img src="LOGIN.JPEG" width=500 height=300><br><br><br><br><br>
+
+<b><i> SIN UP Form</i></b></br>
+<img src="SIN UP.JPEG" width=500 height=200><br><br><br><br><br>
+
+<b><i>REGISTRATION Form</i></b></br>
+<img src="REGISTRATION.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>booking Form</i></b></br>
+<img src="BOOKING.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>event Form</i></b></br>
+<img src="EVENT.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>payment Form</i></b></br>
+<img src="PAYMENT.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>report Form</i></b></br>
+<img src="REOPRT.PNG" width=500 height=200><br><br><br><br><br>
+
+<b><i> notification Form</i></b></br>
+<img src="NOTIFICATION.png" width=500 height=200><br><br><br><br><br>
+
+<b><i>notification Form</i></b></br>
+<img src="NOTIFICATION.png" width=500 height=200><br><br><br><br><br>
+ </ul>
+		
+	</ol>
+
+
+      
+		
+	
+	<marquee><u><i><h2 style="color: white;">Prepared By</i></u>:  IRASUBIZA DENYSE _222003006@COPYRIGHT</h2></marquee>
+	</body>
+	</html>
